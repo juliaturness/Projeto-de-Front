@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{ 
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+.navbar ul{
+    list-style-type:none;
+    background-color: #ede9e7;
+    padding:0%;
+    margin: 0%;
+    overflow:hidden;
+}
+.navbar a{
+    color: #b44715;
+    text-decoration: none;
+    padding: 20px;
+    display:grid;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #db8c68;
+}
+.navbar li{
+    float:right;
+}
+header{
+    text-align: left;
+    background-color: #ede9e7;
+    color: #b44715;
+    font-family:"Lora", serif;
+    padding: 1rem;
+    font-size: 10px;
+}
+body{
+    background-color: #ebe9e7;
+    font-family:"Lora", serif;
+    color: #b44715;
+}
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.a
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.botao{
+    display: inline-block; /* Para que o link se comporte como um botão */
+    padding: 3px; /* Espaçamento interno */
+    color: #b44715; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove o sublinhado */
+    border-bottom: #b44715;
+    font-size: 1rem;
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+
+.botao:hover {
+    background-color:#db8c68 /* Cor de fundo ao passar o mouse */
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 0.13rem solid #b44715;
+    padding: 0.4rem;
+    text-align: center;
+}
+th{
+    background-color:#db8c68
+    
+}
